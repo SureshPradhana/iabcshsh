@@ -1,3 +1,8 @@
+---
+title: screen!
+publish_date: 2023-08-09
+---
+
 screen is a terminal multiplexer that allows you to manage multiple terminal sessions within a single terminal window or SSH session. It was created in the late 1980s and has been a popular tool for remote administration, managing long-running processes, and working with multiple terminals simultaneously.
 - To start a new screen session:
 ```
