@@ -3,11 +3,11 @@ import { BlogPost } from './models.ts';
 
 const blogPosts: BlogPost[] = [];
 
-export function createPost(post: BlogPost): void {
-  post.id = blogPosts.length + 1;
-  post.createdAt = new Date();
-  blogPosts.push(post);
-}
+// export function createPost(post: BlogPost): void {
+//   post.id = blogPosts.length + 1;
+//   post.createdAt = new Date();
+//   blogPosts.push(post);
+// }
 
 export function getAllPosts(): BlogPost[] {
   return blogPosts;
